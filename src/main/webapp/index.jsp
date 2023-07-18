@@ -8,6 +8,7 @@
     <li><a href="/cabecerashttp/products.json">List as JSON</a></li>
     <li><a href="/cabecerashttp/time">Actual Date</a></li>
     <li><a href="/cabecerashttp/redirect">Redirect</a></li>
+    <li><a href="/cabecerashttp/dispatcher">Dispatcher</a></li>
 </ul>
 </body>
 </html>
