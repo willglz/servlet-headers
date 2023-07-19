@@ -19,11 +19,7 @@ public class SearchServlet extends HttpServlet {
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         ProductService productService = new ProductServiceImpl();
         String product = req.getParameter("product");
-        Optional<Product> find = productService.showProducts().stream().filter(p -> {
-            if (product == null || product.isBlank())
-                return false;
-            return p.getName().equals(product);
-        }).findFirst();
+        Optional<Product> find = productService.getProduct(product);
         if (find.isPresent()){
             resp.setContentType("text/html;charset=UTF-8");
             try(PrintWriter out = resp.getWriter()){
