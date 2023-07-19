@@ -1,4 +1,4 @@
-# servlet-headers
+# Cabeceras HTTP con Java EE / Jakarta
 Sencilla aplicación con Java EE / Jakarta. Trabajamos principalmente con Headers para mostrar información de interés y exportamos datos a Excel y JSON.
 
 ## Headers o Cabeceras mas importantes
