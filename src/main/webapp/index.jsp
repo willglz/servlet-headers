@@ -9,6 +9,8 @@
     <li><a href="/cabecerashttp/time">Actual Date</a></li>
     <li><a href="/cabecerashttp/redirect">Redirect</a></li>
     <li><a href="/cabecerashttp/dispatcher">Dispatcher</a></li>
+    <li><a href="/cabecerashttp/login.jsp">Login</a></li>
+    <li><a href="/cabecerashttp/search.jsp">Find a product</a></li>
 </ul>
 </body>
 </html>
